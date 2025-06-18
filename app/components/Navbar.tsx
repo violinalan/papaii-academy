@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-100 py-4 px-6 flex justify-between items-center shadow-sm">
+    <nav className="bg-gray-400 py-4 px-6 flex justify-between items-center shadow-sm max-w-7xl">
       <div className="text-xl font-bold text-blue-700">Papa ʻĪʻī Academy</div>
       <div className="space-x-4">
         <Link href="/">
