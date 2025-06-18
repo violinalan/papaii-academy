@@ -1,20 +1,10 @@
 import Link from "next/link";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
-      {/* Navigation Bar */}
-      <nav className="bg-gray-100 py-4 px-6 flex justify-between items-center shadow-sm">
-        <div className="text-xl font-bold text-blue-700">Papa ʻĪʻī Academy</div>
-        <div className="space-x-4">
-          <Link href="/">
-            <span className="text-gray-700 hover:text-blue-700">Home</span>
-          </Link>
-          <Link href="/about">
-            <span className="text-gray-700 hover:text-blue-700">About</span>
-          </Link>
-        </div>
-      </nav>
+      <Navbar />
 
       <section className="px-6 py-16 max-w-4xl mx-auto text-center">
         <h1 className="text-5xl font-extrabold mb-6">Welcome to Papa ʻĪʻī Christian Academy</h1>
