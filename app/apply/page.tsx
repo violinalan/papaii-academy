@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 
 export default function Apply() {
   return (
-    <main className="min-h-screen bg-slate-600 text-gray-900 max-w-7xl">
+    <main className="min-h-screen bg-slate-600 text-gray-900">
       <Navbar />
 
       <section className="px-6 py-16 max-w-2xl mx-auto">
