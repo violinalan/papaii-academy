@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-gray-100 shadow-sm p-5">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <div className="rounded-xl">
-          <Image className="rounded-lg" src="/papaii_logo.png" width={100} height={100} alt="Papa ʻĪʻī Christian Academy" />
+          <Image className="rounded-lg" src="/papaii_circle.png" width={100} height={100} alt="Papa ʻĪʻī Christian Academy" />
         </div>
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-gray-700">
@@ -21,13 +21,13 @@ export default function Navbar() {
         </div>
         <div className="hidden md:!block flex space-x-4">
           <Link href="/">
-            <span className="text-gray-700 hover:text-blue-700 font-serif text-2xl">Home</span>
+            <span className="text-gray-700 hover:text-blue-700 text-2xl">Home</span>
           </Link>
           <Link href="/about">
-            <span className="text-gray-700 hover:text-blue-700 font-serif text-2xl">About</span>
+            <span className="text-gray-700 hover:text-blue-700 text-2xl">About</span>
           </Link>
           <Link href="/apply">
-            <span className="text-gray-700 hover:text-blue-700 font-serif text-2xl">Apply</span>
+            <span className="text-gray-700 hover:text-blue-700 text-2xl">Apply</span>
           </Link>
         </div>
       </div>
@@ -38,13 +38,13 @@ export default function Navbar() {
       >
         <div className="py-2 space-y-2 flex flex-col items-end">
           <Link href="/">
-            <span className="block text-gray-700 hover:text-blue-700 font-serif">Home</span>
+            <span className="block text-gray-700 hover:text-blue-700">Home</span>
           </Link>
           <Link href="/about">
-            <span className="block text-gray-700 hover:text-blue-700 font-serif">About</span>
+            <span className="block text-gray-700 hover:text-blue-700">About</span>
           </Link>
           <Link href="/apply">
-            <span className="block text-gray-700 hover:text-blue-700 font-serif">Apply</span>
+            <span className="block text-gray-700 hover:text-blue-700">Apply</span>
           </Link>
         </div>
       </div>
