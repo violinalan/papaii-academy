@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="w-full h-[70vh] bg-cover bg-center bg-[url(/west_maui_mountains2.jpg)]">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-white text-4xl md:text-6xl font-bold text-center mt-10 mb-6 md:mt-20 lg:mt-30">
+          <h1 className="text-white text-4xl md:text-6xl text-center mt-10 mb-6 md:mt-20">
             Papa ʻĪʻī Christian Academy
           </h1>
           <h3 className="text-white text-lg md:text-2xl text-center">

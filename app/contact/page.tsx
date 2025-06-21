@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 
-export default function Apply() {
+export default function Contact() {
   return (
     <main className="min-h-screen bg-neutral-600 text-white">
       <Navbar />

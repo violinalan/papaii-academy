@@ -26,8 +26,8 @@ export default function Navbar() {
           <Link href="/about">
             <span className="text-gray-700 hover:text-blue-700 text-2xl">About</span>
           </Link>
-          <Link href="/apply">
-            <span className="text-gray-700 hover:text-blue-700 text-2xl">Apply</span>
+          <Link href="/contact">
+            <span className="text-gray-700 hover:text-blue-700 text-2xl">Contact</span>
           </Link>
         </div>
       </div>
@@ -43,8 +43,8 @@ export default function Navbar() {
           <Link href="/about">
             <div className="block text-gray-700 hover:text-blue-700 text-lg">About</div>
           </Link>
-          <Link href="/apply">
-            <div className="block text-gray-700 hover:text-blue-700 text-lg">Apply</div>
+          <Link href="/contact">
+            <div className="block text-gray-700 hover:text-blue-700 text-lg">Contact</div>
           </Link>
         </div>
       </div>

@@ -34,12 +34,12 @@ export default function About() {
           <p className="text-xl mb-4">
             We follow the Classical Christian Education model, guided by the historic Trivium and rooted in a Christ-centered worldview. Our approach is:
           </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li className="text-xl">Christ-centered</li>
-            <li className="text-xl">Parent-directed</li>
-            <li className="text-xl">Church-partnered</li>
-            <li className="text-xl">Academically rigorous</li>
-            <li className="text-xl">Spiritually formative</li>
+          <ul className="list-disc pl-6 space-y-2 text-xl">
+            <li>Christ-centered</li>
+            <li>Parent-directed</li>
+            <li>Church-partnered</li>
+            <li>Academically rigorous</li>
+            <li>Spiritually formative</li>
           </ul>
         </section>
 
@@ -53,6 +53,9 @@ export default function About() {
             <li><strong>Thursdays:</strong> 8:00 AM – 1:00 PM (Form 4 only)</li>
           </ul>
         </section>
+        <div>
+          <img className="p-8" src="/papaii_classroom.jpeg" alt="Papa ʻĪʻī Christian Academy" />
+        </div>
       </section>
     </main>
   );
