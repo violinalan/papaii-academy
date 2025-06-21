@@ -9,10 +9,10 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-100 shadow-sm p-4">
+    <nav className="bg-gray-100 shadow-sm p-5">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <div>
-          <Image className="rounded-lg" src="/papaii_circle_new.png" width={150} height={150} alt="Papa ʻĪʻī Christian Academy" />
+          <Image className="" src="/papaii_circle_new.png" width={150} height={150} alt="Papa ʻĪʻī Christian Academy" />
         </div>
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-gray-700">
@@ -36,15 +36,15 @@ export default function Navbar() {
           menuOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="py-2 space-y-2 flex flex-col items-end">
+        <div className="py-2 flex space-x-4 justify-end">
           <Link href="/">
-            <span className="block text-gray-700 hover:text-blue-700">Home</span>
+            <div className="block text-gray-700 hover:text-blue-700 text-lg">Home</div>
           </Link>
           <Link href="/about">
-            <span className="block text-gray-700 hover:text-blue-700">About</span>
+            <div className="block text-gray-700 hover:text-blue-700 text-lg">About</div>
           </Link>
           <Link href="/apply">
-            <span className="block text-gray-700 hover:text-blue-700">Apply</span>
+            <div className="block text-gray-700 hover:text-blue-700 text-lg">Apply</div>
           </Link>
         </div>
       </div>
