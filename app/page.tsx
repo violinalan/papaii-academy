@@ -36,7 +36,7 @@ export default function Home() {
       </div>
       <div className="pb-8 flex justify-center">
         <Link href="/contact">
-          <button className="bg-blue-700 text-white px-6 py-3 rounded-md hover:bg-blue-800">Contact Us</button>
+          <button className="bg-yellow-600 text-white px-6 py-3 rounded-md hover:bg-yellow-700">Contact Us</button>
         </Link>
       </div>
     </main>
