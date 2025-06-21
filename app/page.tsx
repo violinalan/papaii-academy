@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
-import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -32,6 +33,11 @@ export default function Home() {
         <p className="text-white text-2xl text-center">
           To cultivate wisdom, virtue, and a love for Christ through classical education in partnership with parents.
         </p>
+      </div>
+      <div className="pb-8 flex justify-center">
+        <Link href="/contact">
+          <button className="bg-blue-700 text-white px-6 py-3 rounded-md hover:bg-blue-800">Contact Us</button>
+        </Link>
       </div>
     </main>
   );

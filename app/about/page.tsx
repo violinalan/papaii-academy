@@ -22,12 +22,12 @@ export default function About() {
           </p>
         </section>
 
-        <section className="mb-12">
+        {/* <section className="mb-12">
           <h2 className="text-3xl mb-2">Statement of Faith</h2>
           <p className="text-xl">
             Statement of faith goes here. Statement of faith goes here. Statement of faith goes here. Statement of faith goes here. Statement of faith goes here. Statement of faith goes here. Statement of faith goes here. Statement of faith goes here. Statement of faith goes here. Statement of faith goes here. Statement of faith goes here. Statement of faith goes here. Statement of faith goes here.
           </p>
-        </section>
+        </section> */}
 
         <section className="mb-12">
           <h2 className="text-3xl mb-2">Educational Philosophy</h2>
@@ -54,7 +54,7 @@ export default function About() {
           </ul>
         </section>
         <div>
-          <img className="p-8" src="/papaii_classroom.jpeg" alt="Papa ʻĪʻī Christian Academy" />
+          <img src="/papaii_classroom.jpeg" alt="Papa ʻĪʻī Christian Academy" />
         </div>
       </section>
     </main>
