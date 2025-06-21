@@ -43,7 +43,7 @@ export default function About() {
           </ul>
         </section>
 
-        <section className="mb-12">
+        <section>
           <h2 className="text-3xl mb-2">Location & Schedule</h2>
           <p className="text-xl">
             Classes are held at Kahului Baptist Church, 309 Puunene Ave.
@@ -53,10 +53,10 @@ export default function About() {
             <li><strong>Thursdays:</strong> 8:00 AM – 1:00 PM (Form 4 only)</li>
           </ul>
         </section>
-        <div>
-          <img src="/papaii_classroom.jpeg" alt="Papa ʻĪʻī Christian Academy" />
-        </div>
       </section>
+      <div>
+        <img className="px-20 pb-8" src="/papaii_classroom.jpeg" alt="Papa ʻĪʻī Christian Academy" />
+      </div>
     </main>
   );
 }
