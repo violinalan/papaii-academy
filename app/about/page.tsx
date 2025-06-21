@@ -55,7 +55,7 @@ export default function About() {
         </section>
       </section>
       <div>
-        <img className="px-4 pb-4 lg:px-20 lg:pb-8" src="/papaii_classroom.jpeg" alt="Papa ʻĪʻī Christian Academy" />
+        <img className="pb-4 lg:pb-8" src="/papaii_classroom.jpeg" alt="Papa ʻĪʻī Christian Academy" />
       </div>
     </main>
   );

@@ -6,7 +6,7 @@ export default function Contact() {
       <Navbar />
 
       <section className="px-6 py-16 max-w-2xl mx-auto">
-        <h1 className="text-5xl mb-8 text-center">Papa I'i Christian Academy Registration</h1>
+        <h1 className="text-5xl mb-8 text-center">Contact Us</h1>
         <p className="mb-6 text-2xl text-left">E Komo Mai!</p>
         <p className="mb-6 text-xl text-left">
           We’re excited you're planning to join our school community as we strive to cultivate a rich and joyful learning culture where students can grow in their love and knowledge of Christ alongside one another.  Please fill out this form to register your family and help us plan for the upcoming academic year. After submission, you will be contacted to submit registration of $50/keiki to reserve your spot. This will go towards your curriculum fee.  We will close registration on June 25th.
