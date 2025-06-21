@@ -9,10 +9,10 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-gray-100 shadow-sm p-5">
+    <nav className="bg-gray-100 shadow-sm p-4">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <div className="rounded-xl">
-          <Image className="rounded-lg" src="/papaii_circle.png" width={100} height={100} alt="Papa ʻĪʻī Christian Academy" />
+        <div>
+          <Image className="rounded-lg" src="/papaii_circle_new.png" width={150} height={150} alt="Papa ʻĪʻī Christian Academy" />
         </div>
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-gray-700">

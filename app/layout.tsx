@@ -5,7 +5,7 @@ import { Cormorant_Garamond } from "next/font/google";
 
 const cormorantGaramond = Cormorant_Garamond({
   weight: ["300","500","700"],
-  subsets: ['latin']
+  subsets: ['latin'],
 })
 
 const geistSans = Geist({
