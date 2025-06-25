@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="bg-gray-100 shadow-sm p-5">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <div>
-          <Image className="" src="/papaii_circle_new.png" width={150} height={150} alt="Papa ʻĪʻī Christian Academy" />
+          <Image className="" src="/papaii_no_background.png" width={150} height={150} alt="Papa ʻĪʻī Christian Academy" />
         </div>
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-gray-700">
