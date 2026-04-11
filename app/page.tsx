@@ -29,7 +29,7 @@ export default function Home() {
         <img className="p-4" src="/papaii_farm.jpg" alt="Papa ʻĪʻī Christian Academy" />
       </div> */}
       <div className="p-5 grid lg:grid-cols-2 items-center">
-        <img className="p-8" src="/papaii_farm.jpg" alt="Papa ʻĪʻī Christian Academy" />
+        <img className="p-8" src="/whale_watch.jpeg" alt="Papa ʻĪʻī Christian Academy" />
         <p className="text-white text-2xl text-center">
           To cultivate wisdom, virtue, and a love for Christ through classical education in partnership with parents.
         </p>
