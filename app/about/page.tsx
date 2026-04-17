@@ -73,8 +73,8 @@ export default function About() {
             Classes are held at Kahului Baptist Church, 309 Puunene Ave.
           </p>
           <ul className="list-disc pl-6 mt-2">
-            <li><strong>Tuesdays:</strong> 8:00 AM – 2:00 PM (Forms 1–4)</li>
-            <li><strong>Thursdays:</strong> 8:00 AM – 1:00 PM (Form 4+ only)</li>
+            <li><strong>Tuesdays:</strong> 8:00 AM – 2:15 PM (Forms 1–4)</li>
+            <li><strong>Thursdays:</strong> 9:00 AM – 1:00 PM (Form 4+ only)</li>
           </ul>
         </section>
       </section>
