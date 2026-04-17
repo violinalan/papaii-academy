@@ -46,10 +46,11 @@ export default function About() {
         <section className="mb-12">
           <h2 className="text-3xl mb-2">Subjects and Forms</h2>
           <p className="text-xl mb-4">
-          Art, Music, History, Science, Writing, Grammar, Literature are some of the core subjects that we seek to partner with the parents
-          in fulfilling.  We pick curriculum (Memoria Press, Fix It Grammar, IEW, Omnibus, Lost Tools in Writing, Noeo, Apologia, etc)
-          that is to be used on school days and tutors communicate weekly with students and parents on what is to be done on the home-school
-          days with that curriculum.  We do not teach math or reading - it is assumed that those will be taught and developed at home.
+          Art, music, history, science, writing, grammar, and literature are among the core subjects in which we partner with parents
+          to provide instruction. We select curricula—such as Memoria Press, Fix It Grammar, IEW, Omnibus, Lost Tools in Writing, Noeo,
+          and Apologia—to be used on school days. Tutors communicate weekly with both students and parents to outline expectations and
+          assignments for home-school days using these materials. Please note that we do not provide instruction in math or reading;
+          it is expected that these subjects are taught and developed at home.
           </p>
           <ul className="list-disc pl-6 space-y-2 text-xl">
             <li>Form 1 (K - Children that turn 5 by August 15th)</li>
